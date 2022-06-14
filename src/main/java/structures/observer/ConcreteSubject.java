@@ -1,4 +1,4 @@
-package observer.structure;
+package structures.observer;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package iterator.structure;
+package structures.iterator;
 
 public interface Iterator {
 

@@ -1,4 +1,4 @@
-package observer.structure;
+package structures.observer;
 
 public class ConcreteObserver implements IObserver {
 

@@ -1,4 +1,4 @@
-package state.structure;
+package structures.state;
 
 public class ConcreteState3 implements IState{
 

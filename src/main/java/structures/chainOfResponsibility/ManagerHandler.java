@@ -1,4 +1,4 @@
-package chainResponsability.structure;
+package structures.chainOfResponsibility;
 
 public class ManagerHandler implements IHandler{
 

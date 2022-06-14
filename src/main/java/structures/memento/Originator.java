@@ -1,4 +1,4 @@
-package memento.structure;
+package structures.memento;
 
 public class Originator {
 

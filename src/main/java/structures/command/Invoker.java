@@ -1,4 +1,4 @@
-package command.structure;
+package structures.command;
 
 import java.util.ArrayList;
 import java.util.List;

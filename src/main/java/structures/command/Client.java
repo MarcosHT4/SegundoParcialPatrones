@@ -1,4 +1,4 @@
-package command.structure;
+package structures.command;
 
 public class Client {
 

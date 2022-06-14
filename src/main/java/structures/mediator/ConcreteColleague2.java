@@ -1,4 +1,4 @@
-package mediator.structure;
+package structures.mediator;
 
 public class ConcreteColleague2 extends Colleague {
 

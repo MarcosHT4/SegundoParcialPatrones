@@ -1,4 +1,4 @@
-package chainResponsability.structure;
+package structures.chainOfResponsibility;
 
 public class ConcreteHandler4 implements IHandler{
 

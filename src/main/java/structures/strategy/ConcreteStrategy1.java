@@ -1,4 +1,4 @@
-package strategy.structure;
+package structures.strategy;
 
 public class ConcreteStrategy1 implements IStrategy{
 

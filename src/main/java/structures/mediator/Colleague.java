@@ -1,4 +1,4 @@
-package mediator.structure;
+package structures.mediator;
 
 public abstract class Colleague {
 

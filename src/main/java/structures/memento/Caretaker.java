@@ -1,4 +1,4 @@
-package memento.structure;
+package structures.memento;
 
 import java.util.ArrayList;
 import java.util.List;
