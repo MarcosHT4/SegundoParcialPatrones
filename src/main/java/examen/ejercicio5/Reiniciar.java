@@ -10,7 +10,7 @@ public class Reiniciar implements IEstadoComputadora{
 
         computadora.setConsumoRam(0);
         computadora.setConsumoCPU(0);
-        Arrays.fill(computadora.getProgramasAbiertos(), null);
+        Arrays.fill(computadora.getProgramasAbiertos(), "Cerrado");
 
         System.out.println("REINICIADO!");
 

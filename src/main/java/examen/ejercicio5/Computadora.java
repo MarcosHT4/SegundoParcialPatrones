@@ -49,7 +49,7 @@ public class Computadora {
         this.estadoComputadora = estadoComputadora;
     }
 
-    public void computadoraResourceManager() {
+    public void computadoraResourceManager() throws InterruptedException {
 
         estadoComputadora.setStateComputadora(this);
 

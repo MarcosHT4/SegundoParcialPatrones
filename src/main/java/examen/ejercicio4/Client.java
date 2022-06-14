@@ -18,11 +18,15 @@ public class Client {
         baseDeDatos.addEstudiantes(estudiante4);
         baseDeDatos.addEstudiantes(estudiante5);
 
+        System.out.println("******POR NOMBRE******");
+
         baseDeDatos.sortListaEstudiantes();
         System.out.println("/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*//*/*");
         baseDeDatos.setSorting(new SortingCI());
+        System.out.println("******POR CI******");
         baseDeDatos.sortListaEstudiantes();
         System.out.println("/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*//*/*");
+        System.out.println("******POR CARRERA******");
         baseDeDatos.setSorting(new SortingCarrera());
         baseDeDatos.sortListaEstudiantes();
 

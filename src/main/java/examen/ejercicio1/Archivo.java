@@ -41,7 +41,7 @@ public class Archivo {
 
         System.out.println("Archivo: ");
         System.out.println("ID archivo: " + id);
-        System.out.println("Contenido del arhcivo: " + contenidoDocumento);
+        System.out.println("Contenido del archivo: " + contenidoDocumento);
 
     }
 
