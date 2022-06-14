@@ -3,11 +3,11 @@ package examen.ejercicio2;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ChatJuegoDiferenteEquipo implements IChatJuegos{
+public class ChatJuegoTodoEquipo implements IChatJuegos{
 
     private List<Jugador> jugadorList = new ArrayList<>();
 
-    public ChatJuegoDiferenteEquipo addJugador(Jugador jugador) {
+    public ChatJuegoTodoEquipo addJugador(Jugador jugador) {
 
         jugadorList.add(jugador);
         return this;
@@ -26,11 +26,10 @@ public class ChatJuegoDiferenteEquipo implements IChatJuegos{
 
                 if(!estudiante.getAlias().equals(jugadorColega.getAlias())) {
 
-                    if(jugadorColega.getClass().getName().contains("Docente")) {
 
                         jugadorColega.received(msg);
 
-                    }
+
 
                 }
 
@@ -40,11 +39,10 @@ public class ChatJuegoDiferenteEquipo implements IChatJuegos{
 
                 if(!docente.getAlias().equals(jugadorColega.getAlias())) {
 
-                    if(jugadorColega.getClass().getName().contains("Estudiante")) {
 
                         jugadorColega.received(msg);
 
-                    }
+
 
                 }
 

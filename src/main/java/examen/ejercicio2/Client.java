@@ -5,7 +5,7 @@ public class Client {
     public static void main(String[] args) {
 
         ChatJuegosMismoEquipo chatJuegosMismoEquipo = new ChatJuegosMismoEquipo();
-        ChatJuegoDiferenteEquipo chatJuegoDiferenteEquipo = new ChatJuegoDiferenteEquipo();
+        ChatJuegoTodoEquipo chatJuegoDiferenteEquipo = new ChatJuegoTodoEquipo();
 
         Estudiante estudiante1 = new Estudiante(chatJuegosMismoEquipo, "Dalas", "Daniel", "8");
         Estudiante estudiante2 = new Estudiante(chatJuegosMismoEquipo, "Javi", "Javier", "5");
@@ -43,8 +43,9 @@ public class Client {
 
         System.out.println("/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*//*/*");
 
-        docente1.send("Hola a los estudiantes");
-        estudiante4.send("Hola a los docentes");
+        docente1.send("Hola a todos!");
+        System.out.println("/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*//*/*");
+        estudiante4.send("Hola a todos!");
 
 
 
