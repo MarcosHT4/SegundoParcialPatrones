@@ -49,7 +49,10 @@ public class Estudiante {
     public void showInfo() {
 
         System.out.println("Estudiante: ");
-        System.out.println("");
+        System.out.println("Nombre: " + nombre);
+        System.out.println("CI: " + ci);
+        System.out.println("Fecha de Nacimiento: " + fechaNacimiento);
+        System.out.println("Carrera: " + carrera);
 
     }
 
